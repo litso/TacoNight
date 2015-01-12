@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF3A1E981A6469CE001E4B55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3A1E971A6469CE001E4B55 /* AppDelegate.swift */; };
+		AF3A1E9A1A6469CE001E4B55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3A1E991A6469CE001E4B55 /* ViewController.swift */; };
+		AF3A1E9D1A6469CE001E4B55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF3A1E9B1A6469CE001E4B55 /* Main.storyboard */; };
+		AF3A1E9F1A6469CE001E4B55 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF3A1E9E1A6469CE001E4B55 /* Images.xcassets */; };
+		AF3A1EA21A6469CE001E4B55 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3A1EA01A6469CE001E4B55 /* LaunchScreen.xib */; };
+		AF3A1EAE1A6469CE001E4B55 /* TacoNightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3A1EAD1A6469CE001E4B55 /* TacoNightTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF3A1EA81A6469CE001E4B55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF3A1E8A1A6469CD001E4B55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF3A1E911A6469CD001E4B55;
+			remoteInfo = TacoNight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF3A1E921A6469CE001E4B55 /* TacoNight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TacoNight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF3A1E961A6469CE001E4B55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF3A1E971A6469CE001E4B55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF3A1E991A6469CE001E4B55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF3A1E9C1A6469CE001E4B55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF3A1E9E1A6469CE001E4B55 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AF3A1EA11A6469CE001E4B55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AF3A1EA71A6469CE001E4B55 /* TacoNightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TacoNightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF3A1EAC1A6469CE001E4B55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF3A1EAD1A6469CE001E4B55 /* TacoNightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacoNightTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF3A1E8F1A6469CD001E4B55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF3A1EA41A6469CE001E4B55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF3A1E891A6469CD001E4B55 = {
+			isa = PBXGroup;
+			children = (
+				AF3A1E941A6469CE001E4B55 /* TacoNight */,
+				AF3A1EAA1A6469CE001E4B55 /* TacoNightTests */,
+				AF3A1E931A6469CE001E4B55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF3A1E931A6469CE001E4B55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF3A1E921A6469CE001E4B55 /* TacoNight.app */,
+				AF3A1EA71A6469CE001E4B55 /* TacoNightTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF3A1E941A6469CE001E4B55 /* TacoNight */ = {
+			isa = PBXGroup;
+			children = (
+				AF3A1E971A6469CE001E4B55 /* AppDelegate.swift */,
+				AF3A1E991A6469CE001E4B55 /* ViewController.swift */,
+				AF3A1E9B1A6469CE001E4B55 /* Main.storyboard */,
+				AF3A1E9E1A6469CE001E4B55 /* Images.xcassets */,
+				AF3A1EA01A6469CE001E4B55 /* LaunchScreen.xib */,
+				AF3A1E951A6469CE001E4B55 /* Supporting Files */,
+			);
+			path = TacoNight;
+			sourceTree = "<group>";
+		};
+		AF3A1E951A6469CE001E4B55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF3A1E961A6469CE001E4B55 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF3A1EAA1A6469CE001E4B55 /* TacoNightTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF3A1EAD1A6469CE001E4B55 /* TacoNightTests.swift */,
+				AF3A1EAB1A6469CE001E4B55 /* Supporting Files */,
+			);
+			path = TacoNightTests;
+			sourceTree = "<group>";
+		};
+		AF3A1EAB1A6469CE001E4B55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF3A1EAC1A6469CE001E4B55 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF3A1E911A6469CD001E4B55 /* TacoNight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF3A1EB11A6469CE001E4B55 /* Build configuration list for PBXNativeTarget "TacoNight" */;
+			buildPhases = (
+				AF3A1E8E1A6469CD001E4B55 /* Sources */,
+				AF3A1E8F1A6469CD001E4B55 /* Frameworks */,
+				AF3A1E901A6469CD001E4B55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TacoNight;
+			productName = TacoNight;
+			productReference = AF3A1E921A6469CE001E4B55 /* TacoNight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF3A1EA61A6469CE001E4B55 /* TacoNightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF3A1EB41A6469CE001E4B55 /* Build configuration list for PBXNativeTarget "TacoNightTests" */;
+			buildPhases = (
+				AF3A1EA31A6469CE001E4B55 /* Sources */,
+				AF3A1EA41A6469CE001E4B55 /* Frameworks */,
+				AF3A1EA51A6469CE001E4B55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF3A1EA91A6469CE001E4B55 /* PBXTargetDependency */,
+			);
+			name = TacoNightTests;
+			productName = TacoNightTests;
+			productReference = AF3A1EA71A6469CE001E4B55 /* TacoNightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF3A1E8A1A6469CD001E4B55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Robert Manson";
+				TargetAttributes = {
+					AF3A1E911A6469CD001E4B55 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					AF3A1EA61A6469CE001E4B55 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = AF3A1E911A6469CD001E4B55;
+					};
+				};
+			};
+			buildConfigurationList = AF3A1E8D1A6469CD001E4B55 /* Build configuration list for PBXProject "TacoNight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF3A1E891A6469CD001E4B55;
+			productRefGroup = AF3A1E931A6469CE001E4B55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF3A1E911A6469CD001E4B55 /* TacoNight */,
+				AF3A1EA61A6469CE001E4B55 /* TacoNightTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF3A1E901A6469CD001E4B55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3A1E9D1A6469CE001E4B55 /* Main.storyboard in Resources */,
+				AF3A1EA21A6469CE001E4B55 /* LaunchScreen.xib in Resources */,
+				AF3A1E9F1A6469CE001E4B55 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF3A1EA51A6469CE001E4B55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF3A1E8E1A6469CD001E4B55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3A1E9A1A6469CE001E4B55 /* ViewController.swift in Sources */,
+				AF3A1E981A6469CE001E4B55 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF3A1EA31A6469CE001E4B55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3A1EAE1A6469CE001E4B55 /* TacoNightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF3A1EA91A6469CE001E4B55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF3A1E911A6469CD001E4B55 /* TacoNight */;
+			targetProxy = AF3A1EA81A6469CE001E4B55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF3A1E9B1A6469CE001E4B55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF3A1E9C1A6469CE001E4B55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF3A1EA01A6469CE001E4B55 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF3A1EA11A6469CE001E4B55 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF3A1EAF1A6469CE001E4B55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF3A1EB01A6469CE001E4B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF3A1EB21A6469CE001E4B55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TacoNight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF3A1EB31A6469CE001E4B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TacoNight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AF3A1EB51A6469CE001E4B55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TacoNightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TacoNight.app/TacoNight";
+			};
+			name = Debug;
+		};
+		AF3A1EB61A6469CE001E4B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TacoNightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TacoNight.app/TacoNight";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF3A1E8D1A6469CD001E4B55 /* Build configuration list for PBXProject "TacoNight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF3A1EAF1A6469CE001E4B55 /* Debug */,
+				AF3A1EB01A6469CE001E4B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF3A1EB11A6469CE001E4B55 /* Build configuration list for PBXNativeTarget "TacoNight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF3A1EB21A6469CE001E4B55 /* Debug */,
+				AF3A1EB31A6469CE001E4B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF3A1EB41A6469CE001E4B55 /* Build configuration list for PBXNativeTarget "TacoNightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF3A1EB51A6469CE001E4B55 /* Debug */,
+				AF3A1EB61A6469CE001E4B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF3A1E8A1A6469CD001E4B55 /* Project object */;
+}
