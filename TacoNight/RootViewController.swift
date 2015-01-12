@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  RootViewController.swift
 //  TacoNight
 //
 //  Created by Robert Manson on 1/12/15.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class RootViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
