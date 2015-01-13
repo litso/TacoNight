@@ -18,7 +18,7 @@ TacoNight/.DS_Store
 .idea/*
 !.idea/codeStyleSettings.xml
 *.pbxproj.bak
-TacoNight.xcworkspace
+TacoNight.xcworkspace/xcuserdata/
 Pods/
 Podfile.lock
 
