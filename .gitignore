@@ -21,4 +21,5 @@ TacoNight/.DS_Store
 TacoNight.xcworkspace/xcuserdata/
 Pods/
 Podfile.lock
+UIAutomation.trace/instrument_data/
 
