@@ -17,27 +17,44 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Taco" translatesAutoresizingMaskIntoConstraints="NO" id="IkF-43-Of1" userLabel="TacoImage">
-                                <rect key="frame" x="201" y="200" width="200" height="200"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="Gbk-cq-UdV"/>
-                                    <constraint firstAttribute="height" constant="200" id="JUq-2Z-Cny"/>
-                                </constraints>
-                            </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aMz-NV-msJ">
-                                <rect key="frame" x="16" y="420" width="556" height="30"/>
+                                <rect key="frame" x="26" y="64" width="548" height="30"/>
                                 <accessibility key="accessibilityConfiguration" label="Party Person"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xz0-E1-AW7" userLabel="Checkmark Button" customClass="CheckBoxButton" customModule="TacoNight" customModuleProvider="target">
+                                <rect key="frame" x="266" y="113" width="68" height="68"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="68" id="HKH-TC-YIx"/>
+                                    <constraint firstAttribute="height" constant="68" id="l54-9v-wgu"/>
+                                </constraints>
+                                <state key="normal">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="disabled">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="checkBoxPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="lIT-LH-5hq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="IkF-43-Of1" secondAttribute="centerX" constant="-0.5" id="2ON-k2-vY5"/>
-                            <constraint firstItem="aMz-NV-msJ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="COB-pO-yf3"/>
-                            <constraint firstItem="aMz-NV-msJ" firstAttribute="top" secondItem="IkF-43-Of1" secondAttribute="bottom" constant="20" id="JJt-Zf-dF5"/>
-                            <constraint firstAttribute="centerY" secondItem="IkF-43-Of1" secondAttribute="centerY" constant="0.5" id="pyD-w0-dL8"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="aMz-NV-msJ" secondAttribute="trailing" constant="12" id="xsM-Pt-AfU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aMz-NV-msJ" secondAttribute="trailing" constant="10" id="16v-4r-h6E"/>
+                            <constraint firstItem="aMz-NV-msJ" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="44" id="6Jm-qz-mXb"/>
+                            <constraint firstItem="Xz0-E1-AW7" firstAttribute="top" secondItem="aMz-NV-msJ" secondAttribute="bottom" constant="19" id="AEX-Bc-jWO"/>
+                            <constraint firstAttribute="centerX" secondItem="aMz-NV-msJ" secondAttribute="centerX" id="ElB-3u-G3w"/>
+                            <constraint firstItem="aMz-NV-msJ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="10" id="S7X-d2-4iV"/>
+                            <constraint firstAttribute="centerX" secondItem="Xz0-E1-AW7" secondAttribute="centerX" id="d5L-gN-OSO"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -45,7 +62,4 @@
             </objects>
         </scene>
     </scenes>
-    <resources>
-        <image name="Taco" width="1600" height="1004"/>
-    </resources>
 </document>
